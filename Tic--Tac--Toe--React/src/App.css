@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app__body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: purple;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  text-align: center;
+  font-size: 30px;
+  margin: 15px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: aqua;
+  width: 50vw;
+  height: 50vh;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: green;
+  padding: 10px;
+  margin: 10px;
+}
+.card{
+  height: 13vh;
+  width: 13vw;
+  background-color: black;
+  margin: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: bold;
+  
+  
+}
+.card:hover{
+  background-color: violet;
+}
